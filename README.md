@@ -15,3 +15,6 @@ Technical Specifications:
 The system logic is implemented using two Arduino sketches:
 *   **Transmitter.ino**: Continuously monitors the MQ3 alcohol sensor and the IR sensor. It transmits a '1' (Safe) if alcohol levels are low and the helmet is detected, and a '0' (Unsafe) otherwise.
 *   **Receiver.ino**: Interprets the received signal and toggles the ignition relay accordingly.
+
+### 📷 Hardware Prototype
+![Smart Helmet System Prototype](images/YOUR_IMAGE_FILENAME_HERE.jpg)![Uploading image.png…]()
